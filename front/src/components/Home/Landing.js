@@ -58,7 +58,7 @@ const kind = [
         <Toolbar style={{width: '80%',
     margin: '0 auto', }}>
           <h1 style={{    flexGrow: '1', fontSize: '2.6rem', color: '#fff', }}  >
-          auctionpoint
+          NCCU second-hand goods <br /> auction platform
           </h1>
           <IconButton onClick={goToLogin}>
             <ExitToAppIcon style={{    color: '#fff',
@@ -74,9 +74,9 @@ const kind = [
         WebkitTextFillColor: "transparent" }}  > 
         <div style={{     color: '#fff',
         fontSize: '4.5rem', }}>
-            Welcome to <br />
+          Welcome! <br />
             </div>
-          auction point </h1>
+          </h1>
           
           <Scroll to="DOWN" smooth={true}>
             <IconButton>
