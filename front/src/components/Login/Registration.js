@@ -76,7 +76,7 @@ function Registration() {
         confirmPassword: Yup.string().min(4).max(20).required("You must input this.").oneOf([Yup.ref('password'), null], 'Passwords must match'),
         name: Yup.string().min(3).max(30).required("You must input a name"),
         surname: Yup.string().min(3).max(30).required("You must input a surname"),
-        email: Yup.string().required("You must input an email").email(),
+        email: Yup.string().required("You must input an email").email().matches(/@nccu\.edu\.tw$/, 'Only use NCCU email.'),
         telephone: Yup.string().matches(phoneRegex, 'Phone number is not valid').required("You must input a telephone"),
         latitude: Yup.number("This is a number").moreThan(-90).lessThan(90),
         longitude: Yup.number("This is a number").moreThan(-180).lessThan(180),
