@@ -160,7 +160,7 @@ function FilterCategories() {
               </div>
               <div className='footer gradient-custom'>
                   <div > {value.location}, {value.country}</div> 
-                  <div style={{ color: '#14b6e3' }}> {value.currently} € &nbsp;&nbsp;</div>
+                  <div style={{ color: '#14b6e3' }}> {value.currently} $ &nbsp;&nbsp;</div>
               </div>
               </div>
     });
@@ -246,7 +246,7 @@ function FilterCategories() {
 
                 // eslint-disable-next-line 
                 return (<a className='searchItem' onClick={()=>{navigate(`/item/${value.id}`)}} > 
-                        <p>{value.name}  {value.currently} € </p>
+                        <p>{value.name}  {value.currently} $ </p>
                         </a>
                 );
                 })}
