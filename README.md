@@ -16,11 +16,6 @@
 - 買家、賣家可利用**平台站內信聯繫溝通**
 - 買家、賣家可於完成交易後，**互相評價**此次交易
 
-- **Secure Authorization and Authentication**
-- **Role-based Access Control**
-- **Mail Client within the Application** 
-- **Recommendations using Matrix Factorization**
-
 ## Diagrams
 ### EERD
 - ![](./images/DBMS-EERD.jpg)
